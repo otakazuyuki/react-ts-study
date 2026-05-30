@@ -4,8 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-const userName:string="Zayuki";
-const userAge:number=25;
+
 
 function App() {
   const [count, setCount] = useState(0)
