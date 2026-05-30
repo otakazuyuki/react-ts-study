@@ -7,9 +7,9 @@ function App(){
       <p>ここがメイン画面</p>
 
       <div style={{marginTop:"20px"}}>
-        <Button />
-        <Button />
-        <Button />
+        <Button label="ログイン" />
+        <Button label="アカウント登録" />
+        <Button label="キャンセル" />
       </div>
     </div>
   );

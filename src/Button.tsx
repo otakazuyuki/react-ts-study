@@ -1,7 +1,11 @@
-export const Button=()=>{
+interface ButtonProps{
+    label:string;
+}
+
+export const Button=(props:ButtonProps)=>{
     return(
         <button style={{padding:"10px 20px",color:"blue"}}>
-            カスタムボタン
+            {props.label}
         </button>
     );
 };
