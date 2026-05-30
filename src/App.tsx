@@ -21,7 +21,7 @@ function App(){
         <Button label="キャンセル" />
       </div>
       <Counter />
-      <NameForm />
+      <NameForm userName={userName} onNameChange={setUserName}/>
       <div style={{margin: "30px 0", display: "flex", justifyContent: "center"}}>
         <TodoList />
       </div>
