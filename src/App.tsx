@@ -6,7 +6,7 @@ function App(){
       <h1>React+TypeScript 学習中</h1>
       <p>ここがメイン画面</p>
 
-      <div style={{display:"flex",flexDirection:"column",gap:"15px",alignItems:"center",justifyContent:"center",height:"100vh"}}>
+      <div style={{display:"flex",flexDirection:"column",gap:"15px",alignItems:"center",justifyContent:"center"}}>
         <Button label="ログイン" />
         <Button label="アカウント登録" />
         <Button label="キャンセル" />
