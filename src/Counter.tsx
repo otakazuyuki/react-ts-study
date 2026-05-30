@@ -1,6 +1,6 @@
 import{useState} from "react";
 
-export const NameForm=()=>{
+export const Counter=()=>{
     const[count,setCount]=useState<number>(0);
 
     const handleClick=()=>{
