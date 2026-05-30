@@ -1,6 +1,7 @@
 import {Button} from "./Button";
 import {Counter} from "./Counter";
 import {NameForm} from "./NameForm";
+import {TodoList} from "./TodoList";
 
 function App(){
   return(
@@ -15,6 +16,9 @@ function App(){
       </div>
       <Counter />
       <NameForm />
+      <div style={{margin: "30px 0", display: "flex", justifyContent: "center"}}>
+        <TodoList />
+      </div>
       <hr style={{border:"0.5px solid #eee",width:"100%"}} />
       <div style={{display:"flex",flexDirection:"row",justifyContent:"center",gap:"10px"}}>
         <Button label="保存する" />
