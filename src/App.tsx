@@ -4,7 +4,15 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+interface User{
+  name:string;
+  age:number;
+  isAdmin:boolean;
+}
 
+const myProfile:User={
+  name:"Zayuki",age:25,isAdmin:true
+}
 
 function App() {
   const [count, setCount] = useState(0)
