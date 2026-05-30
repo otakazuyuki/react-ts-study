@@ -1,11 +1,17 @@
+import {useState} from "react";
 import {Button} from "./Button";
 import {Counter} from "./Counter";
 import {NameForm} from "./NameForm";
 import {TodoList} from "./TodoList";
+import {Header} from "./Header";
 
 function App(){
+
+  const [userName,setUserName]=useState<string>("");
+
   return(
     <div style={{padding:"20px", fontFamily:"sans-serif"}}>
+      <Header userName={userName} />
       <h1>React+TypeScript 学習中</h1>
       <p>ここがメイン画面</p>
 
